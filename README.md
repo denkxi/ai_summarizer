@@ -10,5 +10,11 @@ Article Summarizer is a simple web application that utilizes the OpenAI API to s
 - **Convenient:** Saves time and effort by condensing lengthy articles into concise summaries.
 
 ## Installation
-1. Clone the repository
-2. // Coming soon
+1. Clone the repository:
+``` git clone https://github.com/denkxi/ai_summarizer ```
+2. Navigate to the project directory:
+``` cd ai_summarizer ```
+3. Install dependencies:
+``` npm install ```
+4. Obtain API credentials from [RapidAPI](https://rapidapi.com/restyler/api/article-extractor-and-summarizer), create .env file and assign your api key to variable called VITE_RAPID_API_ARTICLE_KEY
+5. Start the development server with ``` npm run dev ```
