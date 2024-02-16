@@ -8,7 +8,7 @@ const Hero = () => {
 
         <button
           type="button"
-          onClick={() => { window.open('') }}
+          onClick={() => { window.open('https://github.com/denkxi/ai_summarizer', "_blank") }}
           className='black_btn'
         >
           GitHub
