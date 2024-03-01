@@ -18,3 +18,5 @@ Article Summarizer is a simple web application that utilizes the OpenAI API to s
 ``` npm install ```
 4. Obtain API credentials from [RapidAPI](https://rapidapi.com/restyler/api/article-extractor-and-summarizer), create .env file and assign your api key to variable called VITE_RAPID_API_ARTICLE_KEY
 5. Start the development server with ``` npm run dev ```
+
+![preview](ai_summarizer_preview.png)

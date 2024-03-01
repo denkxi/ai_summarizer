@@ -58,7 +58,7 @@ const Demo = () => {
 
   return (
     <section className="mt-16 w-full max-w-xl">
-      {/* {Search} */}
+      {/* {Input URL} */}
       <div className="flex flex-col w-full gap-2">
         <form
           className="relative flex justify-center items-center"
@@ -113,7 +113,7 @@ const Demo = () => {
 
       </div>
 
-      {/* Display Results */}
+      {/* Display Result */}
       <div className="my-10 max-w-full flex justify-center items-center">
         {isFetching ? (
           <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
